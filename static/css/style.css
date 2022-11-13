@@ -1,0 +1,161 @@
+/*
+common
+**********/
+html,
+body {
+    height: 100%
+}
+body {
+    background-color: #fcfcfc;
+} 
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid rgb(235, 218, 218);
+
+}
+.content header{
+    margin: 3%;
+}
+img.body-image {
+    width: 20vw;
+    border-radius: 20px;
+    height: 15vw;
+    
+}
+/* style="width:14vw; float: right; border-radius:20px;" */
+
+/* .r {
+    style="color:#000608; font-weight:bold ;"
+    font-weight: bold;
+} */
+/*
+post
+***********/
+.content header{
+    display: flex;
+    border-bottom: 1px solid rgb(236, 227, 227);
+}
+
+.post_form {
+    padding: 4px 2px;
+    border-bottom: 1px solid #c6c7cf;
+    /* border: 1px solid #112cca; */
+}
+.post_form input {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border:1px solid rgb(249, 249, 250); 
+    
+}
+.posts li .menu_icon {
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+}
+
+.posts li .menu{
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    /* border: 1px solid #ccc; */
+    background-color: white;
+    padding:10px 15px;
+    font-size:  13px;
+    border-radius: 3px;
+}
+.posts li .menu a{
+    text-decoration: none;
+
+}
+
+.post_form textarea {
+    width: 93%;
+    padding:5%;
+    border:1px solid #fcfcfc
+}
+
+.posts ul{
+    padding: 0;
+}
+.posts li{
+    display: flex;
+    border-top: 1px solid rgb(205, 200, 200);
+    /* border: 1px solid #2a1cc4; */
+    padding: 30px 40px;
+    list-style: none;
+    position: relative;
+}
+/* .posts li .logo {
+    flex-basis: 15%;
+    
+} */
+.posts li .logo img{
+    width: 60%;
+}
+
+.posts li.name_body {
+    flex-basis: 85%;
+
+}
+
+.posts li .name_body .name_body {
+    font-weight:bold;
+}
+.posts li .name_body .datetime {
+    color: rgb(118, 114, 114);
+}
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name {
+        font-size: 20px;
+    }
+}
+/* edit page  */
+
+.content .main-header {
+    margin-top: 3%;
+    margin-left: 2%;
+    
+}
+.post_form {
+    margin-left: 2%;
+
+}
+.primary img {
+    height: 3vw;
+    margin: 3px;
+}
+img.main-img{
+    width: 20vw;
+    height: 20vw;
+
+}
+.buttons {
+    /* width: 6vw; */
+    display: flex; 
+    gap: 2%;
+    text-align: right;
+    justify-content: end;
+      
+    
+}
+#tweet {
+    width: 6vw;
+    background-color: #00ACEE;
+    color: aliceblue;
+    border-radius: 3vw;
+    
+}
+
+#cancel {
+    width: 6vw;
+    background-color: #00ACEE;
+    color: aliceblue;
+    border-radius: 3vw;
+}
+
+
